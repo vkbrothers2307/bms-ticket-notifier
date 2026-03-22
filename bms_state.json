@@ -1,275 +1,83 @@
 {
   "shows": {
-    "ALUC|188|20260322|PLATINUM": {
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "02:30 PM",
-      "date": "20260322",
-      "cat": "PLATINUM",
+    "ACAS|31475|20260325|SEMI RECLINER": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "09:30 AM",
+      "date": "20260325",
+      "cat": "SEMI RECLINER",
       "price": "350.00",
       "status": "0"
     },
-    "ALUC|188|20260322|GOLD": {
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "02:30 PM",
-      "date": "20260322",
+    "ACAS|31475|20260325|GOLD": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "09:30 AM",
+      "date": "20260325",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "0"
-    },
-    "ALUC|189|20260322|PLATINUM": {
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "10:15 PM",
-      "date": "20260322",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ALUC|189|20260322|GOLD": {
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "10:15 PM",
-      "date": "20260322",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "0"
-    },
-    "TLUR|35969|20260322|GOLD": {
-      "venue": "Talluri Theatres: Kushaiguda",
-      "time": "05:45 PM",
-      "date": "20260322",
-      "cat": "GOLD",
-      "price": "175.00",
-      "status": "0"
-    },
-    "TLUR|35969|20260322|SILVER": {
-      "venue": "Talluri Theatres: Kushaiguda",
-      "time": "05:45 PM",
-      "date": "20260322",
-      "cat": "SILVER",
-      "price": "50.00",
-      "status": "0"
-    },
-    "TLUR|35970|20260322|GOLD": {
-      "venue": "Talluri Theatres: Kushaiguda",
-      "time": "10:00 PM",
-      "date": "20260322",
-      "cat": "GOLD",
-      "price": "175.00",
-      "status": "2"
-    },
-    "TLUR|35970|20260322|SILVER": {
-      "venue": "Talluri Theatres: Kushaiguda",
-      "time": "10:00 PM",
-      "date": "20260322",
-      "cat": "SILVER",
-      "price": "50.00",
-      "status": "0"
-    },
-    "AMBH|107611|20260323|PLATINUM": {
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "10:00 AM",
-      "date": "20260323",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "AMBH|107611|20260323|GOLD": {
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "10:00 AM",
-      "date": "20260323",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "1"
-    },
-    "AMBH|107611|20260323|LOUNGERS": {
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "10:00 AM",
-      "date": "20260323",
-      "cat": "LOUNGERS",
-      "price": "295.00",
-      "status": "1"
-    },
-    "ALUC|207|20260323|PLATINUM": {
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "10:10 AM",
-      "date": "20260323",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ALUC|207|20260323|GOLD": {
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "10:10 AM",
-      "date": "20260323",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "1"
-    },
-    "ALUC|208|20260323|PLATINUM": {
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "06:25 PM",
-      "date": "20260323",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ALUC|208|20260323|GOLD": {
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "06:25 PM",
-      "date": "20260323",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "1"
-    },
-    "TLUR|35978|20260323|GOLD": {
-      "venue": "Talluri Theatres: Kushaiguda",
-      "time": "09:00 AM",
-      "date": "20260323",
-      "cat": "GOLD",
-      "price": "175.00",
       "status": "3"
     },
-    "TLUR|35978|20260323|SILVER": {
-      "venue": "Talluri Theatres: Kushaiguda",
-      "time": "09:00 AM",
-      "date": "20260323",
-      "cat": "SILVER",
-      "price": "50.00",
-      "status": "2"
-    },
-    "TLUR|35979|20260323|GOLD": {
-      "venue": "Talluri Theatres: Kushaiguda",
-      "time": "01:30 PM",
-      "date": "20260323",
-      "cat": "GOLD",
-      "price": "175.00",
-      "status": "3"
-    },
-    "TLUR|35979|20260323|SILVER": {
-      "venue": "Talluri Theatres: Kushaiguda",
-      "time": "01:30 PM",
-      "date": "20260323",
-      "cat": "SILVER",
-      "price": "50.00",
-      "status": "2"
-    },
-    "TLUR|35980|20260323|GOLD": {
-      "venue": "Talluri Theatres: Kushaiguda",
-      "time": "05:45 PM",
-      "date": "20260323",
-      "cat": "GOLD",
-      "price": "175.00",
-      "status": "3"
-    },
-    "TLUR|35980|20260323|SILVER": {
-      "venue": "Talluri Theatres: Kushaiguda",
-      "time": "05:45 PM",
-      "date": "20260323",
-      "cat": "SILVER",
-      "price": "50.00",
-      "status": "2"
-    },
-    "TLUR|35981|20260323|GOLD": {
-      "venue": "Talluri Theatres: Kushaiguda",
-      "time": "10:00 PM",
-      "date": "20260323",
-      "cat": "GOLD",
-      "price": "175.00",
-      "status": "3"
-    },
-    "TLUR|35981|20260323|SILVER": {
-      "venue": "Talluri Theatres: Kushaiguda",
-      "time": "10:00 PM",
-      "date": "20260323",
-      "cat": "SILVER",
-      "price": "50.00",
-      "status": "2"
-    },
-    "AMBH|107776|20260324|PLATINUM": {
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "10:00 AM",
-      "date": "20260324",
-      "cat": "PLATINUM",
+    "ACAS|31468|20260325|RECLINER": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "01:00 PM",
+      "date": "20260325",
+      "cat": "RECLINER",
       "price": "350.00",
       "status": "0"
     },
-    "AMBH|107776|20260324|GOLD": {
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "10:00 AM",
-      "date": "20260324",
+    "ACAS|31468|20260325|GOLD": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "01:00 PM",
+      "date": "20260325",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "2"
+      "status": "3"
     },
-    "AMBH|107776|20260324|LOUNGERS": {
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "10:00 AM",
-      "date": "20260324",
+    "ACAS|31468|20260325|LOUNGERS": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "01:00 PM",
+      "date": "20260325",
       "cat": "LOUNGERS",
       "price": "295.00",
       "status": "3"
     },
-    "AMBH|107777|20260324|PLATINUM": {
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "02:25 PM",
-      "date": "20260324",
-      "cat": "PLATINUM",
+    "ACAS|31471|20260325|SEMI RECLINER": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "05:15 PM",
+      "date": "20260325",
+      "cat": "SEMI RECLINER",
       "price": "350.00",
       "status": "0"
     },
-    "AMBH|107777|20260324|GOLD": {
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "02:25 PM",
-      "date": "20260324",
+    "ACAS|31471|20260325|GOLD": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "05:15 PM",
+      "date": "20260325",
       "cat": "GOLD",
       "price": "295.00",
       "status": "3"
     },
-    "AMBH|107777|20260324|LOUNGERS": {
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "02:25 PM",
-      "date": "20260324",
-      "cat": "LOUNGERS",
+    "ACAS|31472|20260325|SEMI RECLINER": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "09:45 PM",
+      "date": "20260325",
+      "cat": "SEMI RECLINER",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ACAS|31472|20260325|GOLD": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "09:45 PM",
+      "date": "20260325",
+      "cat": "GOLD",
       "price": "295.00",
       "status": "3"
-    },
-    "ALUC|223|20260324|PLATINUM": {
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "10:10 AM",
-      "date": "20260324",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ALUC|223|20260324|GOLD": {
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "10:10 AM",
-      "date": "20260324",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "2"
-    },
-    "ALUC|225|20260324|PLATINUM": {
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "06:25 PM",
-      "date": "20260324",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ALUC|225|20260324|GOLD": {
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "06:25 PM",
-      "date": "20260324",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "1"
     }
   },
   "dates": {
-    "20260322": "AVAILABLE",
+    "20260322": "BOOKABLE",
     "20260323": "AVAILABLE",
     "20260324": "AVAILABLE",
-    "20260325": "BOOKABLE",
+    "20260325": "AVAILABLE",
     "20260326": "AVAILABLE",
     "20260327": "NOT_OPEN",
     "20260328": "NOT_OPEN"
