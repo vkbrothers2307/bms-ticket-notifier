@@ -38,7 +38,7 @@
       "date": "20260325",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "3"
+      "status": "2"
     },
     "AMBH|107647|20260325|LOUNGERS": {
       "venue": "AMB Cinemas: Gachibowli",
@@ -122,12 +122,16 @@
     }
   },
   "dates": {
-    "20260323": "BOOKABLE",
+    "20260323": "AVAILABLE",
     "20260324": "AVAILABLE",
     "20260325": "AVAILABLE",
     "20260326": "AVAILABLE",
-    "20260327": "NOT_OPEN",
-    "20260328": "NOT_OPEN",
-    "20260329": "NOT_OPEN"
+    "20260327": "AVAILABLE",
+    "20260328": "AVAILABLE",
+    "20260329": "BOOKABLE",
+    "20260330": "AVAILABLE",
+    "20260331": "AVAILABLE",
+    "20260401": "AVAILABLE",
+    "20260402": "AVAILABLE"
   }
 }
