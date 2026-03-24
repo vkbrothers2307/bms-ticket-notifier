@@ -506,6 +506,9 @@ def send_email(subject, changes, shows, movie_info):
     <p style="margin:24px 0 0 0;font-size:12px;color:#999;">
         This is an automated alert from BMS Ticket Notifier.
     </p>
+    <p style="margin:6px 0 0 0;font-size:11px;color:#bbb;">
+        Sent from: bms-notifier-live
+    </p>
 </body>
 </html>"""
 
@@ -525,7 +528,7 @@ def send_email(subject, changes, shows, movie_info):
             )
             fmt = f" [{s.screen_attr}]" if s.screen_attr else ""
             plain_lines.append(f"  {s.time}{fmt} - {cats}")
-    plain_lines.extend(["", "This is an automated alert from BMS Ticket Notifier."])
+    plain_lines.extend(["", "This is an automated alert from BMS Ticket Notifier.","Sent from: bms-notifier-live"])
     plain = "\n".join(plain_lines)
 
     try:
