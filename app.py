@@ -5,7 +5,8 @@ State is persisted via a JSON artifact.
 
 Configure via environment variables or edit the CONFIG below.
 """
-
+import time
+import random
 import os
 import re
 import sys
@@ -142,14 +143,14 @@ API_URL = (
     "showtimes-by-event/primary-dynamic"
 )
 
-
 def fetch_bms(event_code, date_code, region_code, region_slug,
               lat, lon, geohash):
+
     headers = {
         "User-Agent": (
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
             "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/145.0.0.0 Safari/537.36"
+            "Chrome/122.0.0.0 Safari/537.36"
         ),
         "Accept": "application/json, text/plain, */*",
         "Accept-Language": "en-US,en;q=0.9",
@@ -157,35 +158,47 @@ def fetch_bms(event_code, date_code, region_code, region_slug,
             f"https://in.bookmyshow.com/movies/"
             f"{region_slug}/buytickets/{event_code}/"
         ),
-        "sec-ch-ua": '"Chromium";v="145", "Not:A-Brand";v="99"',
-        "sec-ch-ua-mobile": "?0",
-        "sec-ch-ua-platform": '"macOS"',
         "x-app-code": "WEB",
         "x-region-code": region_code,
         "x-region-slug": region_slug,
         "x-geohash": geohash,
         "x-latitude": lat,
         "x-longitude": lon,
-        "x-location-selection": "manual",
-        "x-lsid": "",
     }
+
     params = {
         "eventCode": event_code,
         "dateCode": date_code or "",
-        "isDesktop": "true",
         "regionCode": region_code,
-        "xLocationShared": "false",
-        "memberId": "", "lsId": "", "subCode": "",
-        "lat": lat, "lon": lon,
+        "lat": lat,
+        "lon": lon,
     }
-    try:
-        resp = requests.get(API_URL, headers=headers,
-                            params=params, timeout=15)
-        if resp.status_code == 200:
-            return resp.json()
-        print(f"  HTTP {resp.status_code}")
-    except requests.RequestException as e:
-        print(f"  Request failed: {e}")
+
+    # retry logic
+    for attempt in range(2):
+        try:
+            resp = requests.get(
+                API_URL,
+                headers=headers,
+                params=params,
+                timeout=15
+            )
+
+            if resp.status_code == 200:
+                return resp.json()
+
+            if resp.status_code == 403:
+                print(f"  ⚠️  403 detected (attempt {attempt+1})")
+                time.sleep(2 + random.uniform(0.5, 1.5))
+                continue
+
+            print(f"  HTTP {resp.status_code}")
+
+        except requests.RequestException as e:
+            print(f"  Request failed: {e}")
+
+        time.sleep(1)
+
     return None
 
 
@@ -580,6 +593,9 @@ def main():
     for dc in date_list:
         data = fetch_bms(event_code, dc, region_code,
                          region_slug_r, lat, lon, geohash)
+
+        time.sleep(random.uniform(1.2, 2.2))
+        
         if not data:
             print(f"  ⚠️  No data for date {dc or '(default)'}")
             continue
