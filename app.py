@@ -597,7 +597,7 @@ def main():
         data = fetch_bms(event_code, dc, region_code,
                          region_slug_r, lat, lon, geohash)
 
-        time.sleep(10)
+        time.sleep(random.uniform(8, 12))
         
         if not data:
             print(f"  ⚠️  No data for date {dc or '(default)'}")
