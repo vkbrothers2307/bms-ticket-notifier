@@ -150,7 +150,7 @@
       "date": "20260325",
       "cat": "PLATINUM",
       "price": "350.00",
-      "status": "1"
+      "status": "0"
     },
     "ALUC|259|20260325|GOLD": {
       "venue": "ALLU Cinemas: Kokapet",
@@ -356,6 +356,62 @@
       "venue": "AAA Cinemas: Ameerpet",
       "time": "05:20 PM",
       "date": "20260327",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ACAS|31569|20260328|SEMI RECLINER": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "09:25 AM",
+      "date": "20260328",
+      "cat": "SEMI RECLINER",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ACAS|31569|20260328|GOLD": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "09:25 AM",
+      "date": "20260328",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ACAS|31571|20260328|RECLINER": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "01:00 PM",
+      "date": "20260328",
+      "cat": "RECLINER",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ACAS|31571|20260328|GOLD": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "01:00 PM",
+      "date": "20260328",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ACAS|31571|20260328|LOUNGERS": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "01:00 PM",
+      "date": "20260328",
+      "cat": "LOUNGERS",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ACAS|31557|20260328|SEMI RECLINER": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "05:20 PM",
+      "date": "20260328",
+      "cat": "SEMI RECLINER",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ACAS|31557|20260328|GOLD": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "05:20 PM",
+      "date": "20260328",
       "cat": "GOLD",
       "price": "295.00",
       "status": "3"
