@@ -22,7 +22,7 @@
       "date": "20260325",
       "cat": "LOUNGERS",
       "price": "295.00",
-      "status": "2"
+      "status": "0"
     },
     "AMBH|107647|20260325|PLATINUM": {
       "venue": "AMB Cinemas: Gachibowli",
@@ -46,7 +46,7 @@
       "date": "20260325",
       "cat": "LOUNGERS",
       "price": "295.00",
-      "status": "3"
+      "status": "2"
     },
     "ACAS|31475|20260325|SEMI RECLINER": {
       "venue": "AAA Cinemas: Ameerpet",
@@ -189,6 +189,62 @@
       "time": "09:10 AM",
       "date": "20260326",
       "cat": "LOUNGERS",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ACAS|31495|20260326|SEMI RECLINER": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "09:25 AM",
+      "date": "20260326",
+      "cat": "SEMI RECLINER",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ACAS|31495|20260326|GOLD": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "09:25 AM",
+      "date": "20260326",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ACAS|31500|20260326|RECLINER": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "01:00 PM",
+      "date": "20260326",
+      "cat": "RECLINER",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ACAS|31500|20260326|GOLD": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "01:00 PM",
+      "date": "20260326",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ACAS|31500|20260326|LOUNGERS": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "01:00 PM",
+      "date": "20260326",
+      "cat": "LOUNGERS",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ACAS|31489|20260326|SEMI RECLINER": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "05:20 PM",
+      "date": "20260326",
+      "cat": "SEMI RECLINER",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ACAS|31489|20260326|GOLD": {
+      "venue": "AAA Cinemas: Ameerpet",
+      "time": "05:20 PM",
+      "date": "20260326",
+      "cat": "GOLD",
       "price": "295.00",
       "status": "3"
     }
