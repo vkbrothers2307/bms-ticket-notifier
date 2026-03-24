@@ -21,7 +21,13 @@ import requests
 # CONFIGURATION — edit these or set via env vars
 # ──────────────────────────────────────────────────────────────────────
 
-client = MongoClient(os.getenv("MONGO_URI"))
+MONGO_URI = os.getenv("MONGO_URI")
+
+if not MONGO_URI:
+    print("❌ MONGO_URI not set")
+    sys.exit(1)
+
+client = MongoClient(MONGO_URI)
 db = client["bms"]
 collection = db["state"]
 
@@ -314,18 +320,25 @@ def filter_shows(shows, theatre_filter, time_periods, date_codes):
 # STATE (for change detection between runs)
 # ──────────────────────────────────────────────────────────────────────
 def load_state():
-    doc = collection.find_one({"_id": "state"})
-    if doc:
-        return doc["data"]
+    try:
+        doc = collection.find_one({"_id": "state"})
+        if doc:
+            return doc["data"]
+    except Exception as e:
+        print("⚠️ Mongo load error:", e)
+
     return {}
 
 
 def save_state(state):
-    collection.update_one(
-        {"_id": "state"},
-        {"$set": {"data": state}},
-        upsert=True
-    )
+    try:
+        collection.update_one(
+            {"_id": "state"},
+            {"$set": {"data": state}},
+            upsert=True
+        )
+    except Exception as e:
+        print("⚠️ Mongo save error:", e)
 
 def build_state(shows, dates):
     """Build a comparable state dict."""
@@ -597,7 +610,7 @@ def main():
     old_state = load_state()
 
     changes = []
-    if old_state:
+    if old_state and old_state.get("shows"):
         changes = detect_changes(old_state, new_state)
 
     save_state(new_state)
