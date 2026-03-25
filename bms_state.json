@@ -6,7 +6,7 @@
       "date": "20260326",
       "cat": "PLATINUM",
       "price": "350.00",
-      "status": "1"
+      "status": "0"
     },
     "AMBH|107901|20260326|GOLD": {
       "venue": "AMB Cinemas: Gachibowli",
@@ -78,7 +78,7 @@
       "date": "20260327",
       "cat": "LOUNGERS",
       "price": "295.00",
-      "status": "3"
+      "status": "2"
     },
     "ALUC|288|20260327|PLATINUM": {
       "venue": "ALLU Cinemas: Kokapet",
@@ -138,7 +138,6 @@
     }
   },
   "dates": {
-    "20260325": "AVAILABLE",
     "20260326": "AVAILABLE",
     "20260327": "AVAILABLE",
     "20260328": "AVAILABLE",
