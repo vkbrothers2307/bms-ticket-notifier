@@ -14,7 +14,7 @@
       "date": "20260325",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "1"
+      "status": "0"
     },
     "AMBH|107641|20260325|LOUNGERS": {
       "venue": "AMB Cinemas: Gachibowli",
@@ -48,30 +48,6 @@
       "price": "295.00",
       "status": "1"
     },
-    "ACAS|31468|20260325|RECLINER": {
-      "venue": "AAA Cinemas: Ameerpet",
-      "time": "01:00 PM",
-      "date": "20260325",
-      "cat": "RECLINER",
-      "price": "350.00",
-      "status": "1"
-    },
-    "ACAS|31468|20260325|GOLD": {
-      "venue": "AAA Cinemas: Ameerpet",
-      "time": "01:00 PM",
-      "date": "20260325",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "3"
-    },
-    "ACAS|31468|20260325|LOUNGERS": {
-      "venue": "AAA Cinemas: Ameerpet",
-      "time": "01:00 PM",
-      "date": "20260325",
-      "cat": "LOUNGERS",
-      "price": "295.00",
-      "status": "3"
-    },
     "ACAS|31471|20260325|SEMI RECLINER": {
       "venue": "AAA Cinemas: Ameerpet",
       "time": "05:15 PM",
@@ -102,23 +78,7 @@
       "date": "20260325",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "3"
-    },
-    "ALUC|259|20260325|PLATINUM": {
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "11:00 AM",
-      "date": "20260325",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "ALUC|259|20260325|GOLD": {
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "11:00 AM",
-      "date": "20260325",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "1"
+      "status": "2"
     },
     "ALUC|263|20260325|PLATINUM": {
       "venue": "ALLU Cinemas: Kokapet",
@@ -126,7 +86,7 @@
       "date": "20260325",
       "cat": "PLATINUM",
       "price": "350.00",
-      "status": "1"
+      "status": "0"
     },
     "ALUC|263|20260325|GOLD": {
       "venue": "ALLU Cinemas: Kokapet",
@@ -262,7 +222,7 @@
       "date": "20260326",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "2"
+      "status": "1"
     },
     "ACAS|31539|20260327|SEMI RECLINER": {
       "venue": "AAA Cinemas: Ameerpet",
