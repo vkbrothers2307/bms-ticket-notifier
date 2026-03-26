@@ -1,29 +1,5 @@
 {
   "shows": {
-    "AMBH|107901|20260326|PLATINUM": {
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "09:10 AM",
-      "date": "20260326",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "0"
-    },
-    "AMBH|107901|20260326|GOLD": {
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "09:10 AM",
-      "date": "20260326",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "2"
-    },
-    "AMBH|107901|20260326|LOUNGERS": {
-      "venue": "AMB Cinemas: Gachibowli",
-      "time": "09:10 AM",
-      "date": "20260326",
-      "cat": "LOUNGERS",
-      "price": "295.00",
-      "status": "2"
-    },
     "ALUC|271|20260326|PLATINUM": {
       "venue": "ALLU Cinemas: Kokapet",
       "time": "01:30 PM",
@@ -38,7 +14,7 @@
       "date": "20260326",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "2"
+      "status": "1"
     },
     "ALUC|276|20260326|PLATINUM": {
       "venue": "ALLU Cinemas: Kokapet",
@@ -86,7 +62,7 @@
       "date": "20260327",
       "cat": "PLATINUM",
       "price": "350.00",
-      "status": "0"
+      "status": "3"
     },
     "ALUC|288|20260327|GOLD": {
       "venue": "ALLU Cinemas: Kokapet",
@@ -110,7 +86,7 @@
       "date": "20260327",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "2"
+      "status": "1"
     },
     "AMBH|107968|20260328|PLATINUM": {
       "venue": "AMB Cinemas: Gachibowli",
@@ -126,7 +102,7 @@
       "date": "20260328",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "3"
+      "status": "2"
     },
     "AMBH|107968|20260328|LOUNGERS": {
       "venue": "AMB Cinemas: Gachibowli",
